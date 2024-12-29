@@ -1,0 +1,63 @@
+body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #eef2f3; /* لون خلفية الصفحة */
+      width: 100%;
+      height: 100%;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+      background: #fff;
+      margin: 0 auto;
+      max-width: 800px; /* تحديد عرض أقصى للصفحة */
+      border-radius: 8px; /* زوايا مستديرة */
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* ظل */
+    }
+    section {
+      margin-bottom: 20px;
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      border: 1px solid #c0c6d2;
+    }
+    footer {
+      text-align: center;
+      padding: 10px 0;
+      background: #333;
+      color: white;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    .centent {
+      background-color: #f9f9f9; /* لون خلفية */
+      padding: 20px; /* مساحة داخلية */
+      border-radius: 8px; /* زوايا مستديرة */
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* ظل */
+    }
+    .centent li {
+      margin: 0px 0; /* مساحة بين العناصر */
+    }
+    .centent a {
+      text-decoration: none; /* إزالة الخط السفلي */
+      color: #007BFF; /* لون النص */
+      font-weight: bold; /* جعل النص غامق */
+      transition: color 0.3s; /* تأثير انتقال عند تغيير اللون */
+    }
+    .centent a:hover {
+      color: #0056b3; /* تغيير اللون عند التحويم */
+    }
+    ul{
+      list-style-type: none; /* إزالة النقاط من القائمة */
+      padding: 0; /* إزالة المساحة الداخلية */
+      margin: 0; /* إزالة المساحة الخارجية */
+    } 
+    
